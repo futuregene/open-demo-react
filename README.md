@@ -1,8 +1,13 @@
-# React + Vite
+# WestlakeChat OpenAPI Demo(React)
+[Documentation](https://uqtaquxgqyb.feishu.cn/wiki/AgXUwO2A3inO9Sk020DcvqFandP)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Develop
+1. Install NodeJS
+1. Install pnpm `npm install pnpm`
+1. Install dependencies `pnpm install`
+1. Rename `.env.example`  to `.env`, Edit `.env` set your bot id and api key
+1. Dev `pnpm run dev`
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Deploy
+ - pm2: `pnpm run start` 
+ - docker: `./build_local_image.sh`
